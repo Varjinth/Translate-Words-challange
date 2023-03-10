@@ -54,7 +54,7 @@ with open('performance.txt', 'w') as f:
     f.write(f'Time taken to process: 0 minutes {end_time - start_time:.2f} seconds\n')
     f.write(f'Memory used: {memory_usage} bytes\n')
 
-with open('frequency.txt', 'w') as f:
+with open('frequency.csv', 'w') as f:
     
     # display no. of times a word has been relaced
     f.write('English word,French word,Frequency\n')
